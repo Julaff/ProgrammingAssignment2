@@ -11,7 +11,7 @@
 ## 4. makeCacheMatrix$getsolve gets the value of the inverse of the matrix from the cache
 
 makeCacheMatrix <- function(x = matrix()) {
-        m <- NULL
+        S <- NULL
         setM <- function(y) {
                 x <<- y
                 S <<- NULL
